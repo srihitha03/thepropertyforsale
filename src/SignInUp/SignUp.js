@@ -15,10 +15,10 @@ const SignUp = ({ isOpen, onClose }) => {
       localStorage.setItem(email, JSON.stringify(user));
       onClose();
       setName("")
-    setEmail("")
-    setPassword("")
+      setEmail("")
+      setPassword("")
     }
-    
+
   };
 
   if (!isOpen) return null;
